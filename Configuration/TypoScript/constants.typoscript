@@ -1,0 +1,10 @@
+plugin.tx_formrelay_pdf_provider {
+  settings {
+    enabled = 0
+}
+
+plugin.tx_formrelay.settings.dataProviders {
+  pdfDataProvider {
+    # enabled = 0 # is set via extension configuration
+  }
+}
