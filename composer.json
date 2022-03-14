@@ -26,6 +26,10 @@
 	{
 	  "name": "Stephan Ude",
 	  "role": "Developer"
+	},
+	{
+	  "name": "Daniel Bagel",
+	  "role": "Developer"
 	}
   ],
   "require": {
