@@ -35,7 +35,7 @@
 	"require": {
 		"typo3/cms-core": "^10.4 || ^11.4",
 		"mediatis/formrelay": "^5.0||^6.0",
-		"form-relay/pdf-provider": "@dev"
+		"form-relay/pdf-provider": "^1.0"
 	},
 	"require-dev": {
 		"friendsofphp/php-cs-fixer": "^2.0",
