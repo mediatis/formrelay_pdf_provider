@@ -7,8 +7,8 @@ use FormRelay\PdfProvider\PdfProviderInitialization;
 
 class Initialization
 {
-	public function initialize(RegistryInterface $registry)
-	{
-		PdfProviderInitialization::initialize($registry);
-	}
+    public function initialize(RegistryInterface $registry): void
+    {
+        PdfProviderInitialization::initialize($registry);
+    }
 }

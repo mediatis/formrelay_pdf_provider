@@ -1,14 +1,10 @@
-plugin.tx_formrelay_pdf_provider {
-  settings {
-    enabled = 0
-  }
-}
 
 plugin.tx_formrelay.settings.dataProviders {
-  pdf {
-    enabled = 0
-    pdfTemplatePath = 
-    pdfOutputDir = typo3temp/tx_formrelay_pdf_provider/
-    pdfOutputName = form.pdf
-  }
+    pdf {
+        enabled = 0
+        pdfTemplatePath = 
+        pdfOutputDir = typo3temp/tx_formrelay_pdf_provider/
+        pdfOutputName = form.pdf
+        useCheckboxParser = 0
+    }
 }

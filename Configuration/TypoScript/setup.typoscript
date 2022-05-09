@@ -1,17 +1,13 @@
-plugin.tx_formrelay_pdf_provider {
-  settings {
-    enabled = {$plugin.tx_formrelay_pdf_provider.settings.enabled}
-  }
-}
 
 plugin.tx_formrelay.settings.dataProviders {
-  pdf {
-    enabled = {$plugin.tx_formrelay.settings.dataProviders.pdf.enabled}
-    pdfTemplatePath = {$plugin.tx_formrelay.settings.dataProviders.pdf.pdfTemplatePath}
-    pdfOutputDir = {$plugin.tx_formrelay.settings.dataProviders.pdf.pdfOutputDir}
-    pdfOutputName = {$plugin.tx_formrelay.settings.dataProviders.pdf.pdfOutputName}
-    pdfFormFields {
-      # pdfField = formField
+    pdf {
+        enabled = {$plugin.tx_formrelay.settings.dataProviders.pdf.enabled}
+        pdfTemplatePath = {$plugin.tx_formrelay.settings.dataProviders.pdf.pdfTemplatePath}
+        pdfOutputDir = {$plugin.tx_formrelay.settings.dataProviders.pdf.pdfOutputDir}
+        pdfOutputName = {$plugin.tx_formrelay.settings.dataProviders.pdf.pdfOutputName}
+        useCheckboxParser = {$plugin.tx_formrelay.settings.dataProviders.pdf.useCheckboxParser}
+        pdfFormFields {
+            # pdfField = [CONTENT-RESOLVER]
+        }
     }
-  }
 }
